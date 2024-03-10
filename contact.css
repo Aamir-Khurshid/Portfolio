@@ -1,0 +1,103 @@
+.secondsection {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 8%;
+}
+.intro {
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  padding-left: 8%;
+  height: 100%;
+}
+.secondsection img {
+  width: 10%;
+}
+.contacts {
+  display: flex;
+  margin-top: 5%;
+  bottom: 10%;
+}
+.firstsection {
+  flex: 1;
+}
+.firstsection img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.contact-text {
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.form-fill {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
+}
+.form-fill input {
+  width: 60%;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  padding: 16px 6px;
+}
+.form-fill input::placeholder {
+  color: white;
+}
+.more {
+  display: flex;
+  justify-content: space-between;
+}
+.Contact-me {
+  background-color: blue;
+  width: 150px;
+  border: none;
+  color: white;
+  border-radius: 75px;
+  font-size: 20px;
+  padding: 3px 5px;
+}
+.icons {
+  margin-right: 10%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.icons a {
+  text-decoration: none;
+  color: aquamarine;
+  width: 20%;
+  margin-left: 3%;
+  padding: 3%;
+}
+.icons a:hover {
+  color: blueviolet;
+  width: 25%;
+  margin-left: 3%;
+  padding: 3%;
+}
+.icons a:active {
+  color: blue;
+}
+@media screen and (max-width: 960px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .secondsection {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+}

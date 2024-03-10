@@ -1,0 +1,47 @@
+.about-me {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10%;
+}
+.photo {
+  width: 35%;
+}
+.aamir1 {
+  width: 70%;
+  object-fit: cover;
+  border-radius: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 10px rgb(32, 13, 13);
+}
+.bio {
+  width: 40%;
+}
+.imp {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.imp1 {
+  font-size: 17px;
+  padding-bottom: 6px;
+}
+@media screen and (max-width: 950px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+  }
+  .photo {
+    margin-top: 30px;
+  }
+  .imp {
+    font-size: 24px;
+  }
+  .imp1 {
+    font-size: 13px;
+  }
+  .bio {
+    margin-top: 20px;
+  }
+}
